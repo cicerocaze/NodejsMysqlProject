@@ -6,5 +6,5 @@ var app = require('./config/server');
 
 //definindo porta listener e função callback
 app.listen(3000, function(){
-	console.log("Servidor Node rodando com o express no endereco: localhost:3000");
+	console.log("Servidor Node rodando com express no endereco: localhost:3000");
 });
